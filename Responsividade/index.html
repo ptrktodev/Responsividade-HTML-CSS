@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/2-main.css">
+    <link rel="stylesheet" href="./Styles/1-header.css">
+    <link rel="stylesheet" href="./Styles/3-sobre.css">
+    <link rel="stylesheet" href="./Styles/4-experience.css">
+    <title>Patrick Rodriguez</title>
+</head>
+<body>
+    <div class="wallpapaer">
+    </div>
+
+    <header class="header" id="">
+
+
+            <h1>Portfólio</h1>
+
+            <nav class="navegacao" id="navegacao">
+
+                <button id="btn-mobile">
+                    <span></span>
+                </button>
+
+                <ul id="navbar">
+
+                    <li><a href="#about" id="collapseAbout" onclick="Close1()">Sobre</a></li>
+                    <li><a href="#exp" id="collapseExp" onclick="Close2()">Experiências</a></li>
+                    <li><a href="#Project" id="collapseProject" onclick="Close4()">Projetos</a></li>
+                    <li><a href="#contact" id="collapseContact" onclick="Close3()">Contato</a></li>
+                </ul>
+
+            </nav>
+
+    </header>
+
+    <main class="background-invisible-1" id="">
+
+        <div class="container">
+            <div class="img-container">
+                <img src="./img/rocket12.png" alt=".">
+            </div>
+
+            <div class="apresentacao">
+                
+                <p id="p1">Olá, eu sou...</p>
+
+                <h1>Patrick<br>Rodriguez </h1>
+
+                <p id="p2">Sonhador e apaixonado por Tecnologia e Desenvolvimento. 🚀</p>
+
+                <button id="button"> <strong>SOCIAL</strong> </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="background-invisible-2" id="about">
+
+        <div class="container-1">
+
+            <h1 class="sobre">Sobre</h1>
+
+            <div class="informacoes">
+                
+                <div class="texto">
+                    <P>
+                        Sou um jovem de 20 anos que recentemente entrou em contato com o Universo Web e suas Tecnologias. E desde então, 
+                        busco descobrir cada vez mais as possibilidades de criação para aumentar e contribuir com o meu desenvolvimento.
+                    </P>
+                    <br>
+                    <P>
+                        Meu maior objetivo, sem dúvidas é trabalhar na área da Tecnologia, mas vamos ser sinceros, eu ainda estou indeciso
+                        para qual lado vou, Front-End ou Back-End. Acredito que a resposta está em mim, e logo vou descobri-la. 
+                    </P>
+                    <br>
+                    <P>
+                        Abaixo você encontrará mais sobre a minha pessoa, com experiências e projetos. Fique a vontade para navegar e até mesmo entrar
+                        em contato para sugestão ou qualquer outra contribuição.
+                    </P>
+     
+                </div>
+
+                <div class="img">
+                    <img src="./img/laptop-com-icone-de-codigo-isometrico-de-programa-desenvolvimento-de-software-e-aplicacoes-de-progra-removebg-preview.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="experience" id="exp">
+
+        <div class="introducao-experiencias">
+
+            <h1>Experiências</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, esse 
+                ad tenetur sit veniam magnam ipsa perspiciatis accusantium commodi 
+                consequuntur, sed pariatur incidunt numquam eum saepe reprehenderit 
+                doloribus! Amet, rem.
+            </p>
+
+        </div>
+
+        <div class="img-paragrafo">
+
+            <div class="img-paragrafo-child1">
+                <div class="textos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum 
+                    animi incidunt vero molestias, praesentium saepe asperiores temporibus
+                    id quasi? Excepturi ullam molestiae alias soluta dicta natus fuga, 
+                    cum unde</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum 
+                    animi incidunt vero molestias, praesentium saepe asperiores temporibus
+                    id quasi? Excepturi ullam molestiae alias soluta dicta natus fuga, 
+                    cum unde</p>
+
+                </div>
+                <div class="img-textos">
+                    <img src="./img/photo_2022-12-04_18-44-08.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="img-paragrafo-child1">
+                <div class="textos">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum 
+                    animi incidunt vero molestias, praesentium saepe asperiores temporibus
+                    id quasi? Excepturi ullam molestiae alias soluta dicta natus fuga, 
+                    cum unde</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum 
+                    animi incidunt vero molestias, praesentium saepe asperiores temporibus
+                    id quasi? Excepturi ullam molestiae alias soluta dicta natus fuga, 
+                    cum unde</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cum 
+                    animi incidunt vero molestias, praesentium saepe asperiores temporibus
+                    id quasi? Excepturi ullam molestiae alias soluta dicta natus fuga, 
+                    cum unde</p>
+
+
+                </div>
+                <div class="img-textos">
+                    <img src="./img/photo_2022-12-04_18-50-48.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="./scrpit.js"></script>
+
+    <style>
+
+        .wallpapaer {
+            background-image: url("./img/wallp1.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 120vh;
+            z-index: -1;
+            position: fixed;
+            background: linear-gradient(130deg, rgba(0,15,176,1) 0%, rgba(41,0,77,1) 0%, rgba(89,22,147,1) 23%, rgba(7,0,105,1) 100%);
+        }
+
+ 
+
+    </style>
+</body>
+</html>
